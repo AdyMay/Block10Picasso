@@ -1,0 +1,117 @@
+/* Page Title */
+h1 {
+    color: rgb(59, 157, 243);
+    font-size: 50px;
+    text-align: center;
+    font-family:monospace;
+    border: 35px solid rgb(30, 41, 95);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body{
+    background-color: lightblue;
+    margin: auto;
+    max-width: 800px;
+}
+
+    /* Desktop */
+@media only screen and (max-width: 1680px)  {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+    /* IPad */
+  @media only screen and (max-width: 1024px)  {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+    /* Moble */
+  @media only screen and (max-width: 480px)  {
+    body {
+      background-color: rgb(194, 236, 250);
+    }
+  }
+  #information_form{
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1rem;
+  }
+
+  .gallery_section_wrapper{
+    margin: 15px;
+  }
+
+ .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+ }
+
+ .column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100%;
+    flex: 1;
+ }
+
+ .gallery1{
+    height: 200px;
+    z-index: 2;
+    border: 35px solid rgb(30, 41, 95);
+    height: auto;
+    margin: auto;
+    padding-top: 6px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+ }
+
+ .gallery2{
+    height: 200px;
+    z-index: 2;
+    border: 35px solid rgb(30, 41, 95);
+    height: auto;
+    margin: auto;
+    padding-top: 6px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+ }
+
+ .gallery3{
+    height: 200px;
+    z-index: 2;
+    border: 35px solid rgb(30, 41, 95);
+    height: auto;
+    margin: auto;
+    padding-top: 6px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+ }
+
+ img{
+    max-width: 150px;
+    height: auto;
+    width: 100%;
+ }
+
+h2{
+  color:rgb(59, 157, 243);
+  font-family: monospace;
+  text-align: center;
+  border: 35px solid;
+  padding-bottom: 20px;
+  border-color: rgb(30, 41, 95);
+}
